@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Register</title>
+	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -18,14 +18,10 @@
 						<img src="logo.png" width="150px">
 					</div>
 					<div class="heading">
-						<h4>Create an account</h4>
+						<h4>Login into your account</h4>
 					</div>
 					<form>
 
-						<div class="form-input">
-							<span><i class="fa fa-user"></i></span>
-							<input type="email" placeholder="Full Name" required>
-						</div>
 						<div class="form-input">
 							<span><i class="fa fa-envelope"></i></span>
 							<input type="email" placeholder="Email Address" required>
@@ -36,20 +32,22 @@
 						</div>
 
 						<div class="row mb-3">
-							<div class="col-12 d-flex">
+							<div class="col-6 d-flex">
 								<div class="custom-control custom-checkbox">
 									<input type="checkbox" class="custom-control-input" id="cb1">
-									<label class="custom-control-label text-white" for="cb1">
-									I agree all terms & conditions</label>
+									<label class="custom-control-label text-white" for="cb1">Remember me</label>
 								</div>
+							</div>
+							<div class="col-6 text-right">
+								<a href="forgot.html" class="forget-link">Forgot password</a>
 							</div>
 						</div>
 
 						<div class="text-left mb-3">
-							<button type="submit" class="btn">Register</button>
+							<button type="submit" class="btn">Login</button>
 						</div>
 
-						<div class="text-white mb-3">or register with</div>
+						<div class="text-white mb-3">or login with</div>
 
 						<div class="row mb-3">
 							<div class="col-4">
@@ -70,8 +68,8 @@
 						</div>
 
 						<div class="text-white">
-							Already have an account?
-							<a href="index.html" class="login-link">Login here</a>	
+							Don't have an account?
+							<a href="register.html" class="register-link">Register here</a>	
 						</div>
 
 					</form>
